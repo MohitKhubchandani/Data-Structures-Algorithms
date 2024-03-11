@@ -1,9 +1,4 @@
 
-
-
-
-
-debugger
 function selectionSort(n) {
   let i, j, small, b;
   for (i = 0; i < n.length - 1; i++) {
@@ -16,8 +11,10 @@ function selectionSort(n) {
         b = j;
       }
     }
+    
     n[b] = n[i]
     n[i] = small
+    
   }
   return n
 }
