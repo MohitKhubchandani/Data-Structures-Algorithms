@@ -22,5 +22,5 @@ function selectionSort(n) {
 const n = [14,13,10,25,7]
 console.log(selectionSort(n));
 
-
+// Output : - [ 7, 10, 13, 14, 25 ]
 
