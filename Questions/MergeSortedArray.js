@@ -32,8 +32,8 @@ while(k < m+n){
 return nums1;
 }
 
-const a = [1,2,3,0,0,0]
-const b = [2,5,6]
+const m = [1,2,3,0,0,0]
+const n = [2,5,6]
 
-const op = merge( a, 3 ,b , 3)
+const op = merge( m, 3 ,n , 3)
 console.log(op);
