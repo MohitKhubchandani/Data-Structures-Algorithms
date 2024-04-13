@@ -1,20 +1,19 @@
-// 11,2,7,15
-function twoSum(array , target){
-  let map = {};
-  // frequency map
-  for (let i = 0; i < array.length; i++) {
-    if(map[array[i]]){
-      map[array[i]] += 1
+// Two Sum using Hashmap
+function twoSum(arr , target){
+  let Hashmap = new Map()
+  let n = arr.length
+  for (let i = 0; i < n; i++) {
+    let num = arr[i];
+    let moreNeeded = target - num;
+    if(Hashmap.has(moreNeeded)){
+      return "yes"
     }
-    else{
-      map[array[i]] = 1
-    }
-  }
-  for (let i = 0; i < array.length; i++) {
-    
+    Hashmap.set(num , i)
     
   }
-
+  return "No"
   }
 
-  console.log(twoSum([11,2,7,15] , 9));
+const arr = [5,8,6,19,7,12,10]
+const Output = twoSum(arr , 14); 
+console.log(Output); // Output :- yes
