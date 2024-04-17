@@ -7,4 +7,4 @@ function fibonacci(n){
 
 const output = fibonacci(5)
 console.log(output);
-// Output :- 55
+// Output :- 5
