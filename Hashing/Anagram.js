@@ -25,4 +25,4 @@ function hash(s , t){
 
 
 
-console.log(hash([1,2,3] , [1,2]));
+console.log(hash([1,2,3] , [1,2])); // Output :- false
