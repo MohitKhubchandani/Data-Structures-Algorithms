@@ -66,4 +66,4 @@ let print = function(head) {
 const arr = [4, 3, 2, 1];
 let head = linkedList(arr);
 head = sortLL(head);
-print(head);
+print(head); // Output :- 1 2 3 4
