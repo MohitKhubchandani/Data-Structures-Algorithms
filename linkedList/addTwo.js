@@ -53,7 +53,7 @@ let print = function(head){
   }
 };
 
-debugger
+
 const l1 = [2,4,3];
 const l2 = [5,6,4];
 let list1 = linkedList(l1);
