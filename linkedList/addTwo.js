@@ -59,4 +59,4 @@ const l2 = [5,6,4];
 let list1 = linkedList(l1);
 let list2 = linkedList(l2);
 head = addTwoNumbers(list1 , list2);
-print(head);
+print(head); // Output 7 0 8
