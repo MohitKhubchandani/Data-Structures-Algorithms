@@ -76,4 +76,4 @@ debugger
 const arr =  [1,2,0,2,1,0,2,0,1];
 let head = linkedList(arr);
 head = Sort012(head);
-print(head);
+print(head); // Output :- 0 0 0 1 1 1 2 2 2
