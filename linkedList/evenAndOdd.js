@@ -44,4 +44,4 @@ let print = function(head){
 const arr =  [2,1,3,5,6,4,7]
 let head = linkedList(arr);
 head = evenAndOdd(head);
-print(head);
+print(head); // Output :- 2 3 6 7 1 5 4
