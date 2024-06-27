@@ -53,7 +53,6 @@ let print = function(head){
   }
 }
 
-debugger
 const arr = [1,2,3,4,5];
 let head = linkedList(arr);
 head = rotateRight(head , 2);
