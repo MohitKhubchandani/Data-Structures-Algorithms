@@ -51,4 +51,4 @@ if (detectAloop(head)) {
   console.log("Loop detected in the linked list.");
 } else {
   console.log("No loop detected in the linked list.");
-}
+} // Output :- Loop detected in the linked list.
