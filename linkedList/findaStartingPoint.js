@@ -16,7 +16,7 @@ function findaStartingPoint(head){
       while(slow != null){
         slow = slow.next;
         fast = fast.next;
-        if(slow == fast)return slow
+        if(slow == fast)return slow.data
       }
     }
     }
@@ -38,4 +38,4 @@ fourth.next = fifth;
 fifth.next = sixth
 sixth.next = third;
 
-console.log(findaStartingPoint(head));
+console.log(findaStartingPoint(head)); // Output :- 3
