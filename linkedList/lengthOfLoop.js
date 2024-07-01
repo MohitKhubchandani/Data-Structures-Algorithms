@@ -83,4 +83,4 @@ sixth.next = seven;
 seven.next = eight;
 eight.next = nine;
 nine.next = third;
-console.log(lengthofLoop2(head));
+console.log(lengthofLoop2(head)); // Output :- 7
