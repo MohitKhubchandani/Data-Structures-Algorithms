@@ -76,4 +76,4 @@ head1.next = second1;
 second1.next = third1;
 third1.next = fourth;
 debugger
-console.log(findIntersection1(head , head1)); 
+console.log(findIntersection1(head , head1)); // Output :- 1
