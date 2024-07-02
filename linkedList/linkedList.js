@@ -182,4 +182,4 @@ const arr = [12,6,8,9];
 debugger
 let head = linkedList(arr);
 head = insertBeforeValue(head , 100 , 9);
-print(head);
+print(head); // Output :- 12 6 8 100 9
