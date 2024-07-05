@@ -38,11 +38,11 @@ var reverseList = function(head) {
   let newhead = reverseList(head.next);
   
   let front = head.next;
-  front.next = head;       // Reverse the next pointer
-  head.back = front;       // Update the back pointer
-  head.next = null;        // Set the current node's next to null to terminate the list
+  front.next = head;       
+  head.back = front;       
+  head.next = null;        
   
-  return newhead;          // Return the new head of the reversed list
+  return newhead;          
 };
 
 function print(head){
@@ -52,8 +52,8 @@ function print(head){
   }
 }
 
-debugger
+
 const arr = [1,2,3];
 let head = DDlinkedList(arr);
 head = reverseList(head)
-print(head)
+print(head) // Output :- 3 2 1
