@@ -26,15 +26,15 @@ function middleNode(head){
   fast = fast.next.next;
 
  }
- return slow;
+ return slow.data;
 }
 
 function print(head){
   console.log(head);
 }
 
-debugger
+
 const arr = [1,2,3,4,5,6];
 let head = DDlinkedList(arr);
 head = middleNode(head)
-print(head)
+print(head) // Output :- 4
