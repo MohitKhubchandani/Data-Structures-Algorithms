@@ -9,6 +9,6 @@ function binaryToDecimall(binaryValue){
   }
   return ans;
 }
-debugger
-console.log(binaryToDecimall("1010"));
+
+console.log(binaryToDecimall("1010")); // Output :- 10
 
