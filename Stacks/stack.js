@@ -25,4 +25,4 @@ let stk = new Stack();
 stk.push(10);
 console.log(stk.isEmpty());
 stk.pop()
-console.log(stk.isEmpty());
+console.log(stk.isEmpty()); //Output :- false true
