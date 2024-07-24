@@ -67,4 +67,4 @@ root.left.right = new Node(50)
 root.right.left = new Node(60)
 root.right.right = new Node(70)
 const Output = verticalOrderTraversal(root);
-console.log(Output);
+console.log(Output); // Output :- [ 40, 20, 60, 30, 70 ]
