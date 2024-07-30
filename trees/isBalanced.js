@@ -32,4 +32,4 @@ root.right = new Node(3)
 root.right.left = new Node(4)
 root.right.right = new Node(5)
 const Output = isBalanced(root)
-console.log(Output);
+console.log(Output); // Output :- true
