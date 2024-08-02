@@ -24,4 +24,4 @@ root.right = new Node(5)
 root.right.left = new Node(86)
 root.right.right = new Node(886)
 const Output = diameterOfBinaryTree(root)
-console.log(Output);
+console.log(Output); // Output :- 5;
