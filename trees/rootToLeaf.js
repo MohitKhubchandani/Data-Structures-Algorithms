@@ -23,7 +23,7 @@ var Traversal = function(root , n){
   rootToLeaf(root,arr , n)
   return arr;
 }
-debugger
+
 // Input : - [1,2,3]
 let root = new Node(1)
 root.left = new Node(2)
