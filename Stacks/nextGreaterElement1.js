@@ -34,7 +34,7 @@ function nextGreaterElement(nums) {
     if (i < n) {
       if(!stk.isEmpty()){
         nge[i] = stk.top();
-      }else{
+      }else{  
         nge[i] = -1;
       }
     };
