@@ -7,7 +7,7 @@ class TreeNode {
  };
 
 function isBST(root){
-    return isBSTUtil(root, Number.MIN_VALUE, Number.MAX_VALUE)
+    return isBSTUtil(root, Number.MIN_SAFE_INTEGER, Number.MAX_SAFE_INTEGER)
 };
 
 function isBSTUtil(node, min, max){
@@ -28,6 +28,6 @@ root.right = new TreeNode(4);
 root.right.left = new TreeNode(3);
 root.right.right = new TreeNode(6);
 
-
+debugger
 const Output = isBST(root);
 console.log(Output) // Output :- false
