@@ -1,11 +1,11 @@
 function graph(edges, n){
     let adjecencyList = [];
 
-    for (let i = 0; i < edges.length - 2; i++) {
+    for (let i = 0; i < n - 1; i++) {
         adjecencyList.push([]);
     };
 
-    for (let i = 0; i < edges.length - 1; i++) {
+    for (let i = 0; i < n; i++) {
         let w = edges[i][0];
         let v = edges[i][1];
         
